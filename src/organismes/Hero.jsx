@@ -17,7 +17,7 @@ export default function Hero() {
         <p className="text-gray font-[Inter] text-[14px]">
           Ingestion automatisée des inventaires, <br /> calculs fiables et
           interface modulable <br /> pour transformer vos données IT en <br />
-          décisions environnementales exploitables.
+          décisions environnementales exploitables !
         </p>
 
         <div className="flex gap-4 mt-4">
