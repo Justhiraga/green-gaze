@@ -6,20 +6,21 @@ import { CalendarClock, Radical, Puzzle } from "lucide-react";
 
 export default function Hero() {
   return (
-    <div className="flex items-center justify-between bg-background">
-      <div>
-        <p className="text-primary font-[Inter] text-[13px] flex">
-          PLATEFORME DE PILOTAGE CARBONE IT
-        </p>
-        <h1 className="text-white font-[Inter] text-[40px] font-bold">
-          Pilotez l'empreinte carbone <br /> de votre parc informatique <br />{" "}
-          en temps réel.
-        </h1>
-        <p className="text-gray font-[Inter] text-[14px]">
-          Ingestion automatisée des inventaires, <br /> calculs fiables et
-          interface modulable <br /> pour transformer vos données IT en <br />
-          décisions environnementales exploitables !
-        </p>
+    <div className="bg-background">
+      <div className="flex items-center justify-between">
+        <div>
+          <p className="text-primary font-[Inter] text-[13px] flex">
+            PLATEFORME DE PILOTAGE CARBONE IT
+          </p>
+          <h1 className="text-white font-[Inter] text-[40px] font-bold">
+            Pilotez l'empreinte carbone <br /> de votre parc informatique <br />{" "}
+            en temps réel.
+          </h1>
+          <p className="text-gray font-[Inter] text-[14px]">
+            Ingestion automatisée des inventaires, <br /> calculs fiables et
+            interface modulable <br /> pour transformer vos données IT en <br />
+            décisions environnementales exploitables !
+          </p>
 
           <div className="flex gap-4 mt-4">
             <ButtonArrow text="Demander une démo" />
